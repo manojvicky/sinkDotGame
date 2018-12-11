@@ -1,0 +1,8 @@
+CREATE TABLE APP.USERTABLE
+    (ID INT PRIMARY KEY,
+    NAME VARCHAR(12));
+    
+INSERT INTO APP.USERTABLE VALUES 
+    (1,'User1'),(2,'User2'),(3,'User3');
+    
+select * from APP.USERTABLE;
